@@ -1,13 +1,7 @@
-const vid = document.getElementById("video1");
+// Get our elements
+const player = document.querySelector('.player');
 
-vid.onclick = function(){
-  console.log('vid.classList');
-}
 
-function togglePlay(){
-  if (video.paused || video.ended) {
-    video.play();
-  } else {
-    video.pause();
-  }
-}
+// Build out functions
+
+// Hook up the event listeners
