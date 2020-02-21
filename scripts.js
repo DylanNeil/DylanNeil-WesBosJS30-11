@@ -14,8 +14,9 @@ function togglePlay() {
   video[method]();
 }
 
-function skip(){
-  console.log('this.dataset.skip');
+function skip() {
+  console.log(this.dataset);
+  video.currentTime += parseFloat(this.dataset.skip);
 }
 
 function updateButton() {
@@ -23,8 +24,6 @@ function updateButton() {
   toggle.textContent = icon;
   console.log(icon);
 }
-
-
 
 // Hook up the event listeners
 
