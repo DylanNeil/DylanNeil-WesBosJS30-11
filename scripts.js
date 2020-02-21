@@ -17,7 +17,7 @@ function togglePlay() {
 function updateButton() {
   const icon = this.paused ? '►' : '❚ ❚';
   toggle.textContent = icon;
-  console.log('update the button');
+  console.log(icon);
 }
 
 // Hook up the event listeners
